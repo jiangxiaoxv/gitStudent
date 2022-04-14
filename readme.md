@@ -31,7 +31,15 @@ cp ./readme.md  ./readme2.md
 mv readme readme.md
 
 # 文件名变更
-git reset --hard (暂存区所有的东西都会被清除掉)
+git reset --hard (暂存区, 工作区所有的东西都会被清除掉)
 git mv readme.md readme2.md
+
+
+# 查看版本历史
+1. git log --oneline
+2. git log -n4 --oneline  git log -n2 --oneline
+3. git branch -v 查看本地分支
+4. git checkout -b temp 7ad9f34 // 基于某次提交创建分支
+
 
 
