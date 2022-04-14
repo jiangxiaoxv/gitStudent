@@ -40,6 +40,16 @@ git mv readme.md readme2.md
 2. git log -n4 --oneline  git log -n2 --oneline
 3. git branch -v 查看本地分支
 4. git checkout -b temp 7ad9f34 // 基于某次提交创建分支
+5. git commit -am "feat: 注释"
+6. git branch -av
+7. git log --all
+8. git log --all --graph
+9. git log --oneline master
+10. git help log
+
+
+# .git目录探秘
+
 
 
 
