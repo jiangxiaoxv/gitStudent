@@ -14,8 +14,24 @@
    git config --list --global
    git config --list --system
 
-ls -al
-cp ./readme.md  ./readme2.md
+
 # 建Git仓库
 1. git init
 2. git init your_project
+
+# 仓库文件
+1. 版本历史
+2. 暂存区
+3. 工作目录
+
+
+# mac 操作命令
+ls -al
+cp ./readme.md  ./readme2.md
+mv readme readme.md
+
+# 文件名变更
+git reset --hard (暂存区所有的东西都会被清除掉)
+git mv readme.md readme2.md
+
+
