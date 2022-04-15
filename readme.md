@@ -49,7 +49,24 @@ git mv readme.md readme2.md
 
 
 # .git目录探秘
+cat .git/HEAD
+cat .git/config
+
+git cat-file -p 40e3d4e801c52
+git cat-file -t 40e3d4e801c52
+
+# commit -> tree -> blob
+
+# 分离头指针
 
 
+# 
+git diff HEAD HEAD^1 | HEAD~2
 
 
+# 删除不需要的分支
+1. git branch -d demo
+   git branch -D demo
+
+# 修改最新commit的message
+1. 
