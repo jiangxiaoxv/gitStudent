@@ -69,4 +69,8 @@ git diff HEAD HEAD^1 | HEAD~2
    git branch -D demo
 
 # 修改最新commit的message
-1. 
+1. git commit --amend
+   i wq!
+
+# 修改历史commit的message
+1. git rebase -i 40e3d4e801c52ddd43fa9
