@@ -73,4 +73,8 @@ git diff HEAD HEAD^1 | HEAD~2
    i wq!
 
 # 修改历史commit的message
-1. git rebase -i 40e3d4e801c52ddd43fa9
+1. git rebase -i 40e3d4e801c52ddd43fa9 // 40e3d4e801c52ddd43fa9是要修改的信息的父提交
+
+
+# 把连续的多个commit整理成1个
+1. git rebase -i 
