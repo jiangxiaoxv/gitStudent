@@ -157,6 +157,16 @@ vi .git/config
 git checkout -b localbranch origin/localbranch 
 
 # 解决冲突
+git merge continue
+git merge --abort 
 
 
+# 多个人变更了文件名和文件内容如何处理
+git会自动处理文件名变更(只有一个人修改了文件名)
 
+多个人都修改了文件名，git直接报冲突了，需要人手动处理
+
+# git 禁忌
+git push -f
+git reset --hard ''
+公共分支是严禁做rebase的
