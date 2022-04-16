@@ -83,3 +83,55 @@ git diff HEAD HEAD^1 | HEAD~2
 # 把间隔的多个commit整理成一个
 1. git rebase -i 
    
+# 怎么比较暂存区和HEAD所含文件的差异
+1. git diff --cached 暂存区与历史文件的差异，此时工作区的文件变化没有体现
+
+# 工作区与暂存区的差异
+1. git diff
+2. git diff -- readme.md
+
+# 让暂存区恢复成和head一样
+1. git reset HEAD(废弃暂存区，恢复到工作区)
+
+# 让暂存区恢复到和工作区一样
+1. git checkout -- .
+
+# 取消暂存区部分文件的更改
+1. git reset HEAD -- readme.md index.html
+
+# 回退前几个commit
+1. git reset --hard HEAD(工作区，暂存区，提交历史都没有了)
+
+# 删除文件
+1. rm readme.md
+2. git rm readme.md
+3. git reset --hard HEAD（恢复）
+
+# 临时修复bug
+1. git stash
+2. git stash list
+3. git stash pop
+4. git stash apply
+
+
+# .gitignore
+
+# git 备份
+1. 哑协议(传输进度不可见)
+2. 智能协议（传输可见）
+3. 平时接触到的都是智能协议（http/https）
+4. ssh
+
+5. git clone --bare 仓库1            name1
+6. git clone --bare file://         name2
+7. git clone --bare https://git.vue name3
+8. git remote -v
+9. git remove add zhineng file://
+10. git push --set-upstream zhineng 
+
+# github 远端分支
+1. git remote -v
+2. git remote add remotename git@github.com:git....
+3. git push remotename --all // 把本地的分支都push到远程re
+4. git 
+
