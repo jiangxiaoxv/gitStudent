@@ -133,9 +133,14 @@ git diff HEAD HEAD^1 | HEAD~2
 1. git remote -v
 2. git remote add remotename git@github.com:git....
 3. git push remotename --all // 把本地的分支都push到远程re
+
 实例
 git add remote origin git@github.com:jiangxiaoxv/gitStudent.git
 git push origin --all
 
 # 变基停止
 git rebase --abort
+=======
+4. git 
+
+
