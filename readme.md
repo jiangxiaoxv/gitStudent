@@ -140,7 +140,9 @@ git push origin --all
 
 # 变基停止
 git rebase --abort
-=======
 4. git 
 
 
+# 本地分支推送远程分支并新建立
+git push --set-upstream origin master
+git push origin --delete master
