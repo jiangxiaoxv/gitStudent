@@ -156,3 +156,7 @@ vi .git/config
 # 基于远程分支建立本地分支
 git checkout -b localbranch origin/localbranch 
 
+# 解决冲突
+
+
+
