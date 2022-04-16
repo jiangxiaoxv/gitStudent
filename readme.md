@@ -146,3 +146,13 @@ git rebase --abort
 # 本地分支推送远程分支并新建立
 git push --set-upstream origin master
 git push origin --delete master
+
+# git拉取原称项目重命名
+git clone git@github.com:jiangxiaoxv/gitStudent.git secondGitStudent
+
+# 编辑gitconfig
+vi .git/config
+
+# 基于远程分支建立本地分支
+git checkout -b localbranch origin/localbranch 
+
