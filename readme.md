@@ -170,3 +170,12 @@ git会自动处理文件名变更(只有一个人修改了文件名)
 git push -f
 git reset --hard ''
 公共分支是严禁做rebase的
+
+# git 搜索功能找到自己想要的仓库
+git 最好 学习 资料 in:readme starts:>1000 
+
+# 远程分支拉到本地
+1. 先切换到本地分支
+2. git rebase origin/master
+3. 有冲突解决冲突，git add .
+4. git rebase --continue
