@@ -103,3 +103,7 @@
 2. V
 3. ctrl + v(块选择) shift + i 两次esc就能选择块地方批量更改插入
 4. ctrl + v(块选择) d 删除块选择
+
+# 用户与权限管理
+1. 建立新用户(useradd username)
+2. 删除用户（userdel username)
