@@ -28,4 +28,13 @@
 2. cd /etc
 
 # 创建和删除目录
+新建目录
+1. mkdir /demo 在根目录下建立demo目录
+2. mkdir demo 在当前目录，建立目录
+3. mkdir b c d 建立多个目录
+4. mkdir /a/b 建立多极目录
+删除目录
+1. rmdir /demo 删除目录 (只能删除空白目录)
+2. rm -r /a/b 删除目录和文件
+
         
