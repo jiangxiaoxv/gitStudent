@@ -45,3 +45,13 @@
 1. mv src/http.js src/httpRename.js
 2. \* 匹配当前目录下所有的文件与目录 cp file* / (以file开头)
 3. cp file? /
+
+
+# 文本查看命令
+1. cat os.md 文本内容显示到终端
+2. head -5 os.md  查看文本文件前五行(默认10行)
+3. tail os.md 查看尾部
+4. tail -r os.md 当文件发生变化时，不跟踪
+5. wc -l os.md 查看文件有多少行
+6. more os.md 分行显示 空格继续显示
+7. tail -f os.md 当文件发生变化时，实时跟踪
