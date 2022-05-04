@@ -37,4 +37,11 @@
 1. rmdir /demo 删除目录 (只能删除空白目录)
 2. rm -r /a/b 删除目录和文件
 
-        
+# 复制和移动目录
+1. cp -r  src srcCopy 复制目录,里面的文件不重命名，文件也复制过来了
+2. cp -r src/http.js src/httpCopy.js 复制文件
+3. cp -a 复制权限，等相关属性
+文件的移动与重命名
+1. mv src/http.js src/httpRename.js
+2. * 匹配当前目录下所有的文件与目录 cp file* / (以file开头)
+3. cp file? /
