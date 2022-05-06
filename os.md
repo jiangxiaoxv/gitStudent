@@ -107,3 +107,26 @@
 # 用户与权限管理
 1. 建立新用户(useradd username)
 2. 删除用户（userdel username)
+
+# 文件权限
+1. chmod 修改文件、目录权限
+2. chown 更改属主、属组
+3. chgrp 可以单独更改属组，不常用
+
+
+# 网络管理
+1. 网络状态查看
+   * net-tools
+     - ifconfig
+     - route
+     - netstat
+   * iproute2
+     - ip
+     - ss 
+2. 网络配置
+   * ifconfig 
+   
+3. 网络命令
+4. 网络故障排除
+5. 网络服务管理
+6. 常用网络配置文件
